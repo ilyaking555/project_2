@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.SignUpController">
+    <children>
+        <Button fx:id="SingUpButton" layoutX="277.0" layoutY="349.0" mnemonicParsing="false" text="Зарегистрироваться" />
+        <AnchorPane prefHeight="101.0" prefWidth="700.0" style="-fx-background-color: #2E3348;">
+            <children>
+                <Label layoutX="186.0" layoutY="23.0" prefHeight="48.0" prefWidth="312.0" text="DEADPOOL" textFill="#da1717">
+                    <font>
+                        <Font size="39.0" />
+                    </font>
+                </Label>
+            </children>
+        </AnchorPane>
+        <PasswordField fx:id="login_field" layoutX="60.0" layoutY="200.0" prefHeight="25.0" prefWidth="266.0" promptText="Логин" />
+        <TextField fx:id="SignUPName" layoutX="60.0" layoutY="148.0" prefHeight="25.0" prefWidth="266.0" promptText="Имя" />
+      <TextField fx:id="SignUpLastName" layoutX="350.0" layoutY="148.0" prefHeight="25.0" prefWidth="266.0" promptText="Фамилия" />
+      <PasswordField fx:id="password_field" layoutX="350.0" layoutY="200.0" prefHeight="25.0" prefWidth="266.0" promptText="Пароль" />
+      <TextField fx:id="SigmUpCountry" layoutX="217.0" layoutY="298.0" prefHeight="25.0" prefWidth="266.0" promptText="Страна" />
+      <CheckBox fx:id="SignUpCheckBoxfeMail" layoutX="240.0" layoutY="255.0" mnemonicParsing="false" selected="true" text="Мужчина" />
+      <CheckBox fx:id="SignUpCheckBoxFeMail" layoutX="351.0" layoutY="255.0" mnemonicParsing="false" text="Женщина" />
+    </children>
+</AnchorPane>

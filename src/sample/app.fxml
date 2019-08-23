@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ControllerHome">
+    <children>
+        <AnchorPane prefHeight="101.0" prefWidth="700.0" style="-fx-background-color: #2E3348;">
+            <children>
+                <Label layoutX="236.0" layoutY="23.0" prefHeight="48.0" prefWidth="312.0" text="DEADPOOL" textFill="#da1717">
+                    <font>
+                        <Font size="39.0" />
+                    </font>
+                </Label>
+            </children>
+        </AnchorPane>
+        <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="250.0" layoutY="151.0" pickOnBounds="true" preserveRatio="true" />
+        <ImageView fx:id="ImageButtonHome" fitHeight="200.0" fitWidth="153.0" layoutX="274.0" layoutY="126.0">
+            <image>
+                <Image url="@sert/2mm5vltahugk-dedpul.jpg" />
+            </image>
+        </ImageView>
+    </children>
+</AnchorPane>
